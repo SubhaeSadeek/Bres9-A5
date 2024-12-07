@@ -11,7 +11,7 @@
 			type="text/css"
 		/>
 		<script src="https://cdn.tailwindcss.com"></script>
-		<!-- Lexen google font -->
+		<!-- Lexend google font -->
 		<style>
 			@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
@@ -57,7 +57,7 @@
 			<!-- header buttons section starts -->
 			<div
 				id="header-btn-container"
-				class="pt-20 fixed w-full bg-white border-b-2"
+				class="pt-20 fixed w-full bg-white border-b-2 z-40"
 			>
 				<div
 					id="header-btns"
@@ -76,19 +76,96 @@
 				</div>
 			</div>
 		</header>
-		<main class="pt-96">
-			<div
-				class="h-[500px] bg-red-400 mb-6 border-solid border-green-300 w-10/12 mx-auto"
-			></div>
-			<div
-				class="h-[500px] bg-red-400 mb-6 border-solid border-green-300 w-10/12 mx-auto"
-			></div>
-			<div
-				class="h-[500px] bg-red-400 mb-6 border-solid border-green-300 w-10/12 mx-auto"
-			></div>
-			<div
-				class="h-[500px] bg-red-400 mb-6 border-solid border-green-300 w-10/12 mx-auto"
-			></div>
+
+		<!-- MAIN section starts here -->
+		<!-- *********************** -->
+
+		<main class="pt-96 w-10/12 mx-auto">
+			<!-- Donation card  section start here-->
+			<section id="donation">
+				<!-- Noakhali flood apeal -->
+				<div class="card card-side border-2 px-8 py-1">
+					<figure class="w-[200%]">
+						<img
+							src="./assets/noakhali.png"
+							alt="releig activities by boat with many volunteer on board"
+						/>
+					</figure>
+					<div class="card-body">
+						<button class="btn px-4 w-32 text-[#111111]/70 font-normal">
+							<img src="/assets/coin.png" alt="coin emoji" /><span>0</span>BDT
+						</button>
+						<h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+						<p class="font-normal">
+							The recent floods in Noakhali have caused significant damage to
+							homes infrastructure. Your donation will help provide essential
+							supplies and to those affected by this disaster. Every
+							contribution, big or small, makes difference. Please join us in
+							supporting the relief efforts and making a positive impact on the
+							lives of those in need.
+						</p>
+						<div class="card-actions">
+							<input
+								type="text"
+								placeholder="Write Donation Amount"
+								class="input input-bordered w-full"
+							/>
+							<button
+								class="btn font-semibold text-xl text-black bg-[#B4F461] border-none w-full"
+							>
+								Donate
+							</button>
+						</div>
+					</div>
+				</div>
+				<!--  FENI  Relief Appeal -->
+				<div class="card card-side border-2 px-8 py-1">
+					<figure class="w-[200%]">
+						<img
+							src="./assets/noakhali.png"
+							alt="releig activities by boat with many volunteer on board"
+						/>
+					</figure>
+					<div class="card-body">
+						<button class="btn px-4 w-32 text-[#111111]/70 font-normal">
+							<img src="/assets/coin.png" alt="coin emoji" /><span>0</span>BDT
+						</button>
+						<h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+						<p class="font-normal">
+							The recent floods in Noakhali have caused significant damage to
+							homes infrastructure. Your donation will help provide essential
+							supplies and to those affected by this disaster. Every
+							contribution, big or small, makes difference. Please join us in
+							supporting the relief efforts and making a positive impact on the
+							lives of those in need.
+						</p>
+						<div class="card-actions">
+							<input
+								type="text"
+								placeholder="Write Donation Amount"
+								class="input input-bordered w-full"
+							/>
+							<button
+								class="btn font-semibold text-xl text-black bg-[#B4F461] border-none w-full"
+							>
+								Donate
+							</button>
+						</div>
+					</div>
+				</div>
+				<!-- Aid  Appeal for Injured in the Quota Movement -->
+			</section>
+			<!-- Doantion card section ends here -->
+			<!-- History secton STARTS here -->
+			<section id="history" class="pt-48">
+				<div class="card border-2">
+				<div class="card border-1 border-[#111111]/10">
+					<div class="card-body">
+						<h2 class="card-title"><span></span> Taka donated for Flood at Noakhali, Bangladesh</h2>
+						<p class="bg-slate-100 p-2 rounded-xl">Local time</p>
+					</div>
+				</div>
+			</section>
 		</main>
 
 		<script src="./js/utilities.js"></script>
