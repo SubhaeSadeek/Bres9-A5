@@ -41,3 +41,4 @@ function getTextValueById(id){
     const textValue = parseFloat(textItem);
     return textValue
 }
+

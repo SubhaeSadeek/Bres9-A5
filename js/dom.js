@@ -113,6 +113,23 @@ cardButtonQuota.addEventListener('click', function(event){
 
 /* ******donation and history button */
 btnDonation.addEventListener('click', function(){
+    btnHistory.classList.remove('bg-[#B4F461]');
+    btnDonation.classList.add('bg-[#B4F461]')
+    document.getElementById("donation").classList.remove('hidden');
+    document.getElementById("history").classList.add('hidden');
    
 })
+btnHistory.addEventListener('click', function(){
+    btnHistory.classList.add('bg-[#B4F461]');
+    btnDonation.classList.remove('bg-[#B4F461]')
+    document.getElementById("donation").classList.add('hidden');
+    document.getElementById("history").classList.remove('hidden');
+})
+
+function showElements(id){
+    
+    
+    document.getElementById(id).classList.remove()
+
+}
 
