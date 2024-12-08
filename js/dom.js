@@ -48,6 +48,7 @@ cardButtonNoakhali.addEventListener('click', function(event){
         <h2 class="card-title"> ${donationMade} Taka donated for Flood at Noakhali, Bangladesh</h2>
                             <p class="bg-slate-100 p-2 rounded-xl ">Date: <span class="font-bold text-xl"> ${presentDate}</span> Time: <span class="font-semibold text-xl">${presentTime}</span></p>
         `
+        document.getElementById('noakhali-input-donation').value = "";
     }   
         else{
         alert('please give valid positive numbers and no ZERO amount')
@@ -77,6 +78,7 @@ cardButtonFeni.addEventListener('click', function(event){
         <h2 class="card-title"> ${donationMade} Taka donated to <em>URGENT</em> relief works in Feni, Bangladesh</h2>
        <p class="bg-slate-100 p-2 rounded-xl ">Date: <span class="font-bold text-xl"> ${presentDate}</span> Time: <span class="font-semibold text-xl">${presentTime}</span></p>
         `
+        document.getElementById('feni-input-donation').value = "";
     }   
         else{
         alert('please give valid positive numbers and no ZERO amount')
@@ -104,6 +106,7 @@ cardButtonQuota.addEventListener('click', function(event){
         <h2 class="card-title"> ${donationMade} Taka donated Qouta movement injured person, 2024</h2>
         <p class="bg-slate-100 p-2 rounded-xl ">Date: <span class="font-bold text-xl"> ${presentDate}</span> Time: <span class="font-semibold text-xl">${presentTime}</span></p>
         `
+        document.getElementById('quota-input-donation').value = '';
     }   
         else{
         alert('please give valid positive numbers and no ZERO amount')
