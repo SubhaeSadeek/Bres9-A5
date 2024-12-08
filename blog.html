@@ -23,19 +23,23 @@
 	</head>
 	<body>
 		<!-- nav bar -->
-		<header>
+		<header class="flex flex-col lg:flex-row">
+			<!-- nav section -->
 			<section class="bg-[#F9F7F3] py-3 w-full fixed z-50" id="nav-section">
-				<div class="navbar w-10/12 mx-auto">
+				<div class="navbar w-10/12 mx-auto flex flex-col lg:flex-row">
 					<div class="navbar-start">
 						<a
 							href="./index.html"
-							class="btn font-semibold text-xl text-black bg-[#B4F461] border-none"
+							class="btn font-semibold text-sm lg:text-xl text-black bg-[#B4F461] border-none"
 							>Home</a
 						>
 					</div>
 					<div class="navbar-center">
-						<div class="flex items-center gap-4 text-xl font-semibold">
+						<div
+							class="flex items-center gap-1 lg:gap-4 text-sm lg:text-xl font-semibold"
+						>
 							<img
+								class="w-1/6 lg:max-w-none"
 								src="./assets/logo.png"
 								alt="donating hand picture with a coin droppong"
 							/>
@@ -45,10 +49,13 @@
 					<div class="navbar-end">
 						<div class="flex items-center gap-4 text-xl font-medium">
 							<img
+								class="w-1/5 lg:w-full"
 								src="./assets/coin.png"
 								alt="donating hand picture with a coin droppong"
 							/>
-							<h2><span class="" id="nav-amount-total">5500</span>BDT</h2>
+							<h2 class="text-sm lg:text-base">
+								<span id="nav-amount-total">5500</span>BDT
+							</h2>
 						</div>
 					</div>
 				</div>
@@ -57,52 +64,222 @@
 			<!-- header buttons section starts -->
 			<div
 				id="header-btn-container"
-				class="pt-20 fixed w-full bg-white border-b-2 z-40"
+				class="pt-32 lg:pt-20 fixed w-full bg-white border-b-2 z-40"
 			>
 				<div
 					id="header-btns"
-					class="py-10 w-1/3 mx-auto flex justify-center gap-3"
+					class="pt-12 pb-1 lg:pb-5 w-1/3 mx-auto flex justify-center gap-3"
 				>
 					<button
-						class="btn font-semibold text-xl text-black bg-[#B4F461] border-none"
+						class="btn font-semibold text-sm lg:text-xl text-black bg-[#B4F461] border-none"
 					>
 						Donation
 					</button>
 					<button
-						class="btn font-semibold text-xl text-black bg-[#B4F461] border-none"
+						class="btn font-semibold text-sm lg:text-xl text-black bg-[#B4F461] border-none"
 					>
 						History
 					</button>
 				</div>
 			</div>
 		</header>
-		<main class="pt-96 w-10/12 mx-auto">
+		<main class="pt-56 w-10/12 mx-auto">
 			<div>
 				<div class="collapse collapse-arrow bg-base-200">
 					<input type="radio" name="my-accordion-2" checked="checked" />
 					<div class="collapse-title text-xl font-medium">
-						Click to open this one and close others
+						The situation in Noakhali flood has been improving for the last 24
+						hours.
 					</div>
 					<div class="collapse-content">
-						<p>hello</p>
+						<p>
+							The situation in Noakhalki is imporoving since yesterday. Water is
+							receding in fe w areas but all area are still under water in
+							Noakhali. We are managing 40 more boats to include in our rescue
+							operation. Water is not incresing in most of the area and current
+							is not too strong like last week. It seems, rescue work are now
+							less risky and it is an opprtunity to speed up rescue operation.
+							Children and elderly are specially in denger and it is estimated
+							that we only rescued merely 40% of the flood victim. Begumganj and
+							Maijdee upazila are most vulnerable of all.
+						</p>
+						<br />
+						<p>
+							We are forming a coalition with several prominent volunteer
+							organization of Noakhali. We want to speed up rescue operation and
+							in perrarale we are engaging half of our resources to post flood
+							rehabilitation programme. The major rehabilitation programme we
+							are planning is to ensure waterborne diseases are on check,
+							tubewell and sanitary toilets are restored and direct help to
+							rebuild house that are destroyed. All the donations we get are
+							promised to spend on most essential items and in most effective
+							manners. We croud-source many activities that require physical
+							labor. People are volunteering in neighboring disticts we made
+							temporary working stations.
+						</p>
 					</div>
 				</div>
 				<div class="collapse collapse-arrow bg-base-200">
 					<input type="radio" name="my-accordion-2" />
 					<div class="collapse-title text-xl font-medium">
-						Click to open this one and close others
+						Feni river is running above denger level for the last ten days as
+						rain is continuing.
 					</div>
 					<div class="collapse-content">
-						<p>hello</p>
+						<p>
+							It seems, rescue work are still risky and it is an opprtunity to
+							speed up rescue operation. Children and elderly are specially in
+							denger and it is estimated that we only rescued merely 20% of the
+							flood victim. All but Sadar upazila are most vulnerable of all.The
+							situation in Feni is further worsen since yesterday. Water level
+							is incrasing on few points but all area are still under water in
+							Noakhali. We are managing more boats to include in our rescue
+							operation. current is too strong like last week and no sign to
+							weaken the current.
+						</p>
+						<p>
+							We are forming a coalition with several prominent volunteer
+							organization of Noakhali. We want to speed up rescue operation and
+							in perrarale we are engaging half of our resources to post flood
+							rehabilitation programme. The major rehabilitation programme we
+							are planning is to ensure waterborne diseases are on check,
+							tubewell and sanitary toilets are restored and direct help to
+							rebuild house that are destroyed. All the donations we get are
+							promised to spend on most essential items and in most effective
+							manners. We croud-source many activities that require physical
+							labor. People are volunteering in neighboring disticts we made
+							temporary working stations.
+						</p>
 					</div>
 				</div>
 				<div class="collapse collapse-arrow bg-base-200">
 					<input type="radio" name="my-accordion-2" />
 					<div class="collapse-title text-xl font-medium">
-						Click to open this one and close others
+						Student Quota movement shows courage and dignity among people but
+						the wonded need attention as trauma is big issue now.
 					</div>
 					<div class="collapse-content">
-						<p>hello</p>
+						<p>
+							July 24 is major turning point for the nation. We make big
+							sacrifice to establish right of the people. About 2000 protesters
+							and activists were killed and 25000 wonded in several degrees.
+						</p>
+						<br />
+						<p>
+							Let's take Adnan's case. Adnan is 17 years old and stuying second
+							year in Cumilla city. He was shot on his eyes and both of his eyes
+							are completely lost. He is still carrying 33 bullets and splintes
+							in his body. We helped him treating him and ensure best available
+							treatment in the country.
+						</p>
+						<br />
+						<p>
+							Let's take the case of Yazdee as well. He loves to play football.
+							Yesterday, he looked on his amputed legs and said, &QUOT; the most
+							painfull is that I will neve can play football.&QUOT; We are
+							preparing necessary arrangements to attach artificial limbs to
+							both of his amputed legs.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- ------------------------- -->
+			<div>
+				<div class="collapse collapse-arrow bg-base-200">
+					<input type="radio" name="my-accordion-2" checked="checked" />
+					<div class="collapse-title text-xl font-medium">
+						The situation in Noakhali flood has been improving for the last 24
+						hours.
+					</div>
+					<div class="collapse-content">
+						<p>
+							The situation in Noakhalki is imporoving since yesterday. Water is
+							receding in fe w areas but all area are still under water in
+							Noakhali. We are managing 40 more boats to include in our rescue
+							operation. Water is not incresing in most of the area and current
+							is not too strong like last week. It seems, rescue work are now
+							less risky and it is an opprtunity to speed up rescue operation.
+							Children and elderly are specially in denger and it is estimated
+							that we only rescued merely 40% of the flood victim. Begumganj and
+							Maijdee upazila are most vulnerable of all.
+						</p>
+						<br />
+						<p>
+							We are forming a coalition with several prominent volunteer
+							organization of Noakhali. We want to speed up rescue operation and
+							in perrarale we are engaging half of our resources to post flood
+							rehabilitation programme. The major rehabilitation programme we
+							are planning is to ensure waterborne diseases are on check,
+							tubewell and sanitary toilets are restored and direct help to
+							rebuild house that are destroyed. All the donations we get are
+							promised to spend on most essential items and in most effective
+							manners. We croud-source many activities that require physical
+							labor. People are volunteering in neighboring disticts we made
+							temporary working stations.
+						</p>
+					</div>
+				</div>
+				<div class="collapse collapse-arrow bg-base-200">
+					<input type="radio" name="my-accordion-2" />
+					<div class="collapse-title text-xl font-medium">
+						Feni river is running above denger level for the last ten days as
+						rain is continuing.
+					</div>
+					<div class="collapse-content">
+						<p>
+							It seems, rescue work are still risky and it is an opprtunity to
+							speed up rescue operation. Children and elderly are specially in
+							denger and it is estimated that we only rescued merely 20% of the
+							flood victim. All but Sadar upazila are most vulnerable of all.The
+							situation in Feni is further worsen since yesterday. Water level
+							is incrasing on few points but all area are still under water in
+							Noakhali. We are managing more boats to include in our rescue
+							operation. current is too strong like last week and no sign to
+							weaken the current.
+						</p>
+						<p>
+							We are forming a coalition with several prominent volunteer
+							organization of Noakhali. We want to speed up rescue operation and
+							in perrarale we are engaging half of our resources to post flood
+							rehabilitation programme. The major rehabilitation programme we
+							are planning is to ensure waterborne diseases are on check,
+							tubewell and sanitary toilets are restored and direct help to
+							rebuild house that are destroyed. All the donations we get are
+							promised to spend on most essential items and in most effective
+							manners. We croud-source many activities that require physical
+							labor. People are volunteering in neighboring disticts we made
+							temporary working stations.
+						</p>
+					</div>
+				</div>
+				<div class="collapse collapse-arrow bg-base-200">
+					<input type="radio" name="my-accordion-2" />
+					<div class="collapse-title text-xl font-medium">
+						Student Quota movement shows courage and dignity among people but
+						the wonded need attention as trauma is big issue now.
+					</div>
+					<div class="collapse-content">
+						<p>
+							July 24 is major turning point for the nation. We make big
+							sacrifice to establish right of the people. About 2000 protesters
+							and activists were killed and 25000 wonded in several degrees.
+						</p>
+						<br />
+						<p>
+							Let's take Adnan's case. Adnan is 17 years old and stuying second
+							year in Cumilla city. He was shot on his eyes and both of his eyes
+							are completely lost. He is still carrying 33 bullets and splintes
+							in his body. We helped him treating him and ensure best available
+							treatment in the country.
+						</p>
+						<br />
+						<p>
+							Let's take the case of Yazdee as well. He loves to play football.
+							Yesterday, he looked on his amputed legs and said, &QUOT; the most
+							painfull is that I will neve can play football.&QUOT; We are
+							preparing necessary arrangements to attach artificial limbs to
+							both of his amputed legs.
+						</p>
 					</div>
 				</div>
 			</div>
