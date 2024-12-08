@@ -32,7 +32,7 @@ cardButtonNoakhali.addEventListener('click', function(event){
     event.preventDefault();
     const donationMade = getInputValueById("noakhali-input-donation");
     console.log(donationMade);
-    if(!isNaN(donationMade) && donationMade > 0 ){
+    if(!isNaN(donationMade) && donationMade > 0 && donationMade < navCurrentTotal ){
     const cardCurrentDonationTotal = getTextValueById("noakhali-donation-total");
     const cardDonationTotal = cardCalculation(cardCurrentDonationTotal, donationMade);
     const navGrandTotal = navCalculation(navCurrentTotal , donationMade);
@@ -61,7 +61,7 @@ cardButtonFeni.addEventListener('click', function(event){
     event.preventDefault();
     const donationMade = getInputValueById("feni-input-donation");
     console.log(donationMade);
-    if(!isNaN(donationMade) && donationMade > 0 ){
+    if(!isNaN(donationMade) && donationMade > 0 && donationMade < navCurrentTotal){
     const cardCurrentDonationTotal = getTextValueById("feni-donation-total");
     const cardDonationTotal = cardCalculation(cardCurrentDonationTotal, donationMade);
     const navGrandTotal = navCalculation(navCurrentTotal , donationMade);
@@ -91,7 +91,7 @@ cardButtonQuota.addEventListener('click', function(event){
     event.preventDefault();
     const donationMade = getInputValueById("quota-input-donation");
     console.log(donationMade);
-    if(!isNaN(donationMade) && donationMade > 0 ){
+    if(!isNaN(donationMade) && donationMade > 0 && donationMade < navCurrentTotal){
     const cardCurrentDonationTotal = getTextValueById("quota-donation-total");
     const cardDonationTotal = cardCalculation(cardCurrentDonationTotal, donationMade);
     const navGrandTotal = navCalculation(navCurrentTotal , donationMade);
